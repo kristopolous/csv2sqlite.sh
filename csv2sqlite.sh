@@ -19,4 +19,4 @@ create table csv($schema);
 ENDL
 
 rm -f $tmp
-echo "Done.\nsqlite3 $sql"
+echo -e "Done.\n$ sqlite3 $sql\n"
